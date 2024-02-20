@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "759494664408",
+    "project_id": "okobase-55fb4",
+    "storage_bucket": "okobase-55fb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759494664408:android:d281651c4b60d416fff7ad",
+        "android_client_info": {
+          "package_name": "com.example.oko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759494664408-lp4macd83oieo0bsvb5j9v9qpe0ih0ti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNEj7PUQY9jOPjSAtBMR6EpGEl2Li_v9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759494664408-lp4macd83oieo0bsvb5j9v9qpe0ih0ti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
