@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">759494664408-lp4macd83oieo0bsvb5j9v9qpe0ih0ti.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">759494664408</string>
+    <string name="google_api_key" translatable="false">AIzaSyCNEj7PUQY9jOPjSAtBMR6EpGEl2Li_v9E</string>
+    <string name="google_app_id" translatable="false">1:759494664408:android:d281651c4b60d416fff7ad</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCNEj7PUQY9jOPjSAtBMR6EpGEl2Li_v9E</string>
+    <string name="google_storage_bucket" translatable="false">okobase-55fb4.appspot.com</string>
+    <string name="project_id" translatable="false">okobase-55fb4</string>
+</resources>
