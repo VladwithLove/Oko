@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/shop"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/shop_icon"
+        android:id="@+id/shop"/>
+    <item
+        android:title="@string/objects"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/house_icon"
+        android:id="@+id/objects"/>
+    <item
+        android:title="@string/account"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/account_icon"
+        android:id="@+id/account"/>
+</menu>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Menu.BacketActivity">
+
+    <LinearLayout
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/menu_name"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/logodog"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:contentDescription="TODO"
+            android:src="@drawable/logo_dog"
+            android:transitionName="logodog" />
+
+        <TextView
+            android:id="@+id/shopText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/backet"
+            android:textColor="@color/mainLight"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:transitionName="shopText" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/backetRecycles"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/allPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="@string/price"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/backetBtn"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundedbutton"
+        android:elevation="10dp"
+        android:text="@string/order"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:transitionName="backetBtn" />
+
+</LinearLayout>

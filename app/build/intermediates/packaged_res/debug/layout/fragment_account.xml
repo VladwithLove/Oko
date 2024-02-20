@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu.AccountFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backLight"
+            android:orientation="horizontal"
+            android:elevation="20dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/userImages"
+                android:transitionName="userImages"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/noprofileimagie"
+                app:riv_border_color="@color/black"
+                app:riv_border_width="2dp"
+                app:riv_corner_radius="180dip"
+                app:riv_oval="false" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/accountData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/accountEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/aboutAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/roundedbutton"
+                android:text="@string/aboutAccount"
+                android:textColor="@color/white"
+                android:transitionName="signIn" />
+
+            <Button
+                android:id="@+id/ordersAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/roundedbutton"
+                android:text="@string/myOrders"
+                android:textColor="@color/white"
+                android:transitionName="signIn" />
+
+            <Button
+                android:id="@+id/systemsAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/roundedbutton"
+                android:text="@string/allSystems"
+                android:textColor="@color/white"
+                android:transitionName="signIn" />
+
+            <Button
+                android:id="@+id/shopHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundedbutton"
+                android:text="@string/shopHistory"
+                android:textColor="@color/white"
+                android:transitionName="signIn" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/roundedbutton"
+            android:text="@string/sigOut"
+            android:textColor="@color/white"
+            android:transitionName="signIn" />
+
+    </LinearLayout>
+
+</FrameLayout>
